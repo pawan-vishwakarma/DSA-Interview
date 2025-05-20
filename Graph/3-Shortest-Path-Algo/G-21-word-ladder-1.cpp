@@ -2,7 +2,7 @@ class Solution {
     public:
     // refer= https://www.geeksforgeeks.org/problems/word-ladder/1
     // refer- https://leetcode.com/problems/word-ladder/submissions/901118436/
-    
+
       int wordLadderLength(string startWord, string targetWord,
                            vector<string>& wordList) {
           
@@ -21,7 +21,7 @@ class Solution {
               q.pop();
               
               if(wrd == targetWord) return level;
-              
+              // tc- n*wrdlength*26*logn(set lookup)
               for(int i=0; i<wrd.size(); i++){
                   char old= wrd[i];
                   for(char ch='a'; ch <= 'z'; ch++){
