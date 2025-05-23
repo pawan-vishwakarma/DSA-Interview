@@ -18,6 +18,15 @@ class Solution {
                 }
             }
         }
+
+        // for detetcting -ve cycle
+        // why this working because from 0->0 cost must be 0 similar from 1->1 cost must be zero
+        // if for any edge cost is less than zero it means there exist -ve cycle
+        for(int i=0; i<n; i++){
+            if(dist[i][i] < 0) {
+                cout<<"Negative cycle exist";
+            }
+        }
         return;
     }
 };
