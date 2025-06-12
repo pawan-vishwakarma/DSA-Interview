@@ -1,4 +1,6 @@
 // refer- https://www.geeksforgeeks.org/problems/maximum-stone-removal-1662179442/1
+#include <bits/stdc++.h>
+using namespace std;
 
 class DisjointSet{
     vector<int> rank;
