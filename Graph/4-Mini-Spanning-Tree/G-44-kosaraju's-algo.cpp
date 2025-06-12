@@ -1,5 +1,6 @@
 //Position this line where user code will be pasted.
-
+#include <bits/stdc++.h>
+using namespace std;
 // refer- https://www.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
 class Solution {
   public:
