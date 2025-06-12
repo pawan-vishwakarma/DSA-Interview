@@ -1,5 +1,6 @@
 // refer- https://leetcode.com/problems/critical-connections-in-a-network/submissions/1661746435/
-
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
 private:
     int timer=1;
